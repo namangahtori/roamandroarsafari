@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import ZoneCard from "@/components/ZoneCard";
 import Link from "next/link";
-import { Phone, MessageCircle, MapPin, Shield, Clock, Award } from "lucide-react";
+import { Phone, MessageCircle, MapPin, Shield, Clock, Award, Mail } from "lucide-react";
 
 const zones = [
   {
@@ -104,7 +104,7 @@ export default function Home() {
             Jim Corbett National Park
           </p>
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-wide">
-            ROAR & ROAM
+            ROAM & ROAR
           </h1>
           <p className="text-xl md:text-2xl text-[#a1a1aa] mb-10 max-w-2xl mx-auto">
             Experience the wild beauty of India&apos;s oldest national park. Book your
@@ -213,7 +213,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div>
               <h4 className="font-display text-2xl font-bold text-white mb-4 tracking-wide">
-                ROAR & ROAM
+                ROAM & ROAR
               </h4>
               <p className="text-[#a1a1aa] text-sm leading-relaxed">
                 Your trusted partner for Jim Corbett National Park safari
@@ -278,6 +278,15 @@ export default function Home() {
                   </a>
                 </li>
                 <li>
+                  <a
+                    href="mailto:roamandroarsafari@gmail.com"
+                    className="flex items-center gap-3 text-[#a1a1aa] hover:text-[#d4a853] transition-colors"
+                  >
+                    <Mail className="h-4 w-4" />
+                    roamandroarsafari@gmail.com
+                  </a>
+                </li>
+                <li>
                   <span className="flex items-center gap-3 text-[#a1a1aa]">
                     <MapPin className="h-4 w-4" />
                     Jim Corbett National Park
@@ -287,7 +296,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-[#262626] mt-12 pt-8 text-center text-sm text-[#a1a1aa]">
-            <p>&copy; 2026 Roar & Roam. All rights reserved.</p>
+            <p>&copy; 2026 Roam & Roar. All rights reserved.</p>
           </div>
         </div>
       </footer>

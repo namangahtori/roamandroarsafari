@@ -15,13 +15,13 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-3">
             <Image
               src="/images/logo.jpeg"
-              alt="Roar & Roam"
+              alt="Roam & Roar"
               width={50}
               height={50}
               className="rounded-lg"
             />
             <span className="font-display text-2xl font-bold text-white tracking-wide">
-              ROAR & ROAM
+              ROAM & ROAR
             </span>
           </Link>
 

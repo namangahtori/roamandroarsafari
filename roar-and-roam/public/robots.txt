@@ -1,4 +1,4 @@
-# Roar & Roam - Jim Corbett Safari Booking
+# Roam & Roar - Jim Corbett Safari Booking
 # https://roarandroam.com
 
 User-agent: *
