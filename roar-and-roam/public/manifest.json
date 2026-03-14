@@ -1,0 +1,21 @@
+{
+  "name": "Roar & Roam - Jim Corbett Safari",
+  "short_name": "Roar & Roam",
+  "description": "Book your Jim Corbett National Park safari adventure",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#d4a853",
+  "icons": [
+    {
+      "src": "/images/logo.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/images/logo.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}

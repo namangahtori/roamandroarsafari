@@ -1,0 +1,8 @@
+# Roar & Roam - Jim Corbett Safari Booking
+# https://roarandroam.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://roarandroam.com/sitemap.xml
