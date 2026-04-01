@@ -30,19 +30,30 @@ export default function ZoneCard({
         <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent" />
 
         {/* Vehicle Badge */}
-        <div className="absolute top-3 right-3">
-          <span className={`badge ${vehicleType === "canter" ? "badge-green" : "badge-gold"}`}>
-            {vehicleType === "canter" ? (
-              <Bus className="h-3 w-3 mr-1" />
+        <div className="absolute bottom-3 right-4">
+          <span className="badge badge-mauve">
+            {name === "Dhikala" ? (
+              <>
+                <Bus className="h-3 w-3 mr-1" />
+                <Car className="h-3 w-3 mr-1" />
+                Canter/Jeep*
+              </>
+            ) : vehicleType === "canter" ? (
+              <>
+                <Bus className="h-3 w-3 mr-1" />
+                Canter
+              </>
             ) : (
-              <Car className="h-3 w-3 mr-1" />
+              <>
+                <Car className="h-3 w-3 mr-1" />
+                Jeep
+              </>
             )}
-            {vehicleType === "canter" ? "Canter" : "Jeep"}
           </span>
         </div>
 
         {/* Zone Name */}
-        <div className="absolute bottom-3 left-4 right-4">
+        <div className="absolute bottom-3 left-4">
           <h3 className="font-display text-2xl font-bold text-white tracking-wide">
             {name}
           </h3>

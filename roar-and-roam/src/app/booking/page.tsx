@@ -29,7 +29,7 @@ const zonesData: ZoneInfo[] = [
   { name: "Hathidagar", price: 7300, priceLabel: "/jeep", vehicleType: "jeep", advance: 4000, maxGuests: 6 },
 ];
 
-const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "918077354975";
+const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "919870969734";
 
 function BookingForm() {
   const searchParams = useSearchParams();
@@ -234,7 +234,7 @@ Please confirm availability and booking.`;
               </p>
               <p className="text-sm text-[#4ade80] flex items-start gap-2">
                 <AlertCircle className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                For Jeep Safari in Dhikala, please call us for special arrangements.
+                For Jeep Safari in Dhikala, the state government requires the guests to stay a day in their quarters for the night, for which arrangements are to be made and will incur more cost.
               </p>
             </div>
           )}
@@ -468,7 +468,7 @@ export default function BookingPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+918077354975"
+                href="tel:+919870969734"
                 className="btn-outline flex items-center justify-center gap-2"
               >
                 <Phone className="h-4 w-4" />
