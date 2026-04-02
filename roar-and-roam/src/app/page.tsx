@@ -259,16 +259,16 @@ export default function Home() {
               <ul className="space-y-3 text-sm">
                 <li>
                   <a
-                    href="tel:+918077354975"
+                    href="tel:+919870969734"
                     className="flex items-center gap-3 text-[#a1a1aa] hover:text-[#d4a853] transition-colors"
                   >
                     <Phone className="h-4 w-4" />
-                    +91 8077354975
+                    +91 9870969734
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://wa.me/918077354975"
+                    href="https://wa.me/919870969734"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 text-[#a1a1aa] hover:text-[#d4a853] transition-colors"
